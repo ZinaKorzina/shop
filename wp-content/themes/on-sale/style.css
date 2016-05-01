@@ -708,6 +708,45 @@ article .post-content-area .more-link{
 	text-align: center;
 }
 
+.top-area a.skip-link {
+    display: none;
+}
+
+footer .row {
+    margin-top: 35px;
+}
+
+footer li {
+    text-align: left;
+}
+
+.footer-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+footer .socials {
+    margin-top: 25px;
+}
+
+footer .fa {
+    /* width: 100%; */
+    transition: background-color 0.3s;
+    font-size: 18px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+	 text-decoration: none !important; 
+}
+
+footer .fa:hover {
+    background-color: #028468;
+}
+
 /* ==========================================================================
    Media
    ========================================================================== */
