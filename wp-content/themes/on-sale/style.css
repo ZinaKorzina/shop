@@ -747,6 +747,11 @@ footer .fa:hover {
     background-color: #028468;
 }
 
+div#order_review.payment-fixed {
+    position: static !important;
+    margin-left: auto !important;
+}
+
 /* ==========================================================================
    Media
    ========================================================================== */

@@ -31,6 +31,12 @@
 		wp_enqueue_style('fontawesome');
 	}
 	
+	add_action('wp_enqueue_scripts', 'plug_checkout_script');
+	
+    function plug_checkout_script() {
+        wp_register_script('checkout-script',get_stylesheet_directory_uri().'/js/checkout.js',array('jquery'));
+        wp_enqueue_script('checkout-script');
+	}
 	
 	
 	
