@@ -752,6 +752,14 @@ div#order_review.payment-fixed {
     margin-left: auto !important;
 }
 
+.thisuser{
+    display: none;
+}
+
+ul#menu-main-menu li:last-child {
+    float: right;
+}
+
 /* ==========================================================================
    Media
    ========================================================================== */

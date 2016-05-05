@@ -38,11 +38,7 @@
 				* @hooked onsale_secondary_navigation - 10
 				*/	
 				do_action( 'onsale_header_top' ); ?>
-				<?php if(is_user_logged_in()){
-				$user = wp_get_current_user();
-				
-				echo "Вы зашли как:  ".$user->data->user_nicename." .";
-			}?>
+
 			</div>
 		</div> <!-- second-nav -->
 		<div class="col-full">
