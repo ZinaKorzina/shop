@@ -72,7 +72,7 @@ if ( ! function_exists( 'onsale_product_search' ) ) {
 		$form = '<form role="search" method="get" id="searchform" action="' . esc_url( home_url( '/'  ) ) . '">
 		<div>
 			<label class="screen-reader-text" for="s">' . __( 'Search for:', 'onsale' ) . '</label>
-			<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="' . __( 'type search query and enter...', 'onsale' ) . '" />
+			<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="поиск..." />
 			<button type="submit" id="searchsubmit"><span class="fa fa-search"></span></button>
 			<input type="hidden" name="post_type" value="product" />
 		</div>
@@ -150,7 +150,7 @@ function onsale_featured_slider() {
 						<h3><?php the_title(); ?></h3>
 						<p class="price"><?php echo $product->get_price_html(); ?></p>
 						<p><?php echo $loop->post->post_excerpt; ?></p>
-						<a href="<?php echo get_permalink( $loop->post->ID ) ?>" class="button" title="<?php echo esc_attr($loop->post->post_title ? $loop->post->post_title : $loop->post->ID); ?>"><?php _e('View Product','onsale'); ?></a>
+						<a href="<?php echo get_permalink( $loop->post->ID ) ?>" class="button" title="<?php echo esc_attr($loop->post->post_title ? $loop->post->post_title : $loop->post->ID); ?>">Перейти к товару</a>
 					</div>
 					<div class="clearfix"></div>
 				</li>
