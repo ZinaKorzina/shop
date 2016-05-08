@@ -756,10 +756,13 @@ div#order_review.payment-fixed {
     display: none;
 }
 
-ul#menu-main-menu li:last-child {
+ul#menu-main-menu>li:last-child {
     float: right;
 }
 
+ul#menu-main-menu>li:last-child li {
+    width: 100%;
+}
 /* ==========================================================================
    Media
    ========================================================================== */
